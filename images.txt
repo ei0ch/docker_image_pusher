@@ -1,6 +1,17 @@
-nginx
+#nginx
 #支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
+#k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+#xhofe/alist:latest
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+--platform=linux/amd64 xiaoyaliu/alist
+--platform=linux/amd64 allanpk716/chinesesubfinder
+--platform=linux/amd64 ghcr.io/blakeblackshear/frigate:stable
+--platform=linux/amd64 linuxserver/jellyfin
+--platform=linux/amd64 jxxghp/moviepilot
+--platform=linux/amd64 iyuucn/iyuuplus-dev
+--platform=linux/amd64 linuxserver/qbittorrent:latest
+--platform=linux/amd64 ghcr.io/home-assistant/home-assistant
+--platform=linux/amd64 linuxserver/transmission
+--platform=linux/amd64 jeessy/ddns-go:latest
+--platform=linux/amd64 allanpk716/chinesesubfinder
+--platform=linux/amd64 looby/aliyundrive-subscribe
