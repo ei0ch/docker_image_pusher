@@ -15,3 +15,5 @@
 --platform=linux/amd64 jeessy/ddns-go:latest
 --platform=linux/amd64 allanpk716/chinesesubfinder
 --platform=linux/amd64 looby/aliyundrive-subscribe
+--platform=linux/amd64 ghcr.io/monlor/xiaoya-metadata:latest
+--platform=linux/amd64 ghcr.io/monlor/xiaoya-alist:latest
